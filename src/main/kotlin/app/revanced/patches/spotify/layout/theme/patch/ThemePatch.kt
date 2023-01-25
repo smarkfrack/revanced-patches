@@ -49,7 +49,7 @@ class ThemePatch : ResourcePatch {
         var accentColor: String? by option(
             PatchOption.StringOption(
                 key = "accentColor",
-                default = "#ff1ed760",
+                default = "#ffffbbcc",
                 title = "Accent color",
                 description = "The accent color ('spotify green' by default). Can be a hex color or a resource reference.",
             )
@@ -57,8 +57,8 @@ class ThemePatch : ResourcePatch {
         var accentPressedColor: String? by option(
             PatchOption.StringOption(
                 key = "accentPressedColor",
-                default = "#ff169c46",
-                title = "Pressed accent for the dark theme",
+                default = "#ff800020",
+                title = "Burgundy colored!",
                 description = "The color when accented buttons are pressed, by default slightly darker than accent. Can be a hex color or a resource reference.",
             )
         )
