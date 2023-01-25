@@ -14,7 +14,7 @@ import org.w3c.dom.Element
 @Patch
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Name("spotify-theme")
-@Description("Applies a custom theme.")
+@Description("Applies a custom theme in the spotify app.")
 @ThemeCompatibility
 @Version("0.0.1")
 class ThemePatch : ResourcePatch {
